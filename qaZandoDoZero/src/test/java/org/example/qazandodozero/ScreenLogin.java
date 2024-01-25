@@ -20,4 +20,11 @@ public class ScreenLogin {
 
     @AndroidFindBy(id = "login_button")
     private RemoteWebElement botaoLogar;
+
+    public void logar(){
+        campoEmail.sendKeys("qazando@gmail.com");
+        campoSenha.sendKeys("1234");
+        botaoLogar.click();
+    }
+
 }
