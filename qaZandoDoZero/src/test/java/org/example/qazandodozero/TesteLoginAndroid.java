@@ -22,6 +22,7 @@ public class TesteLoginAndroid {
         capabilities.setCapability("deviceName", "emulator-5554");
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("unicodeKeyboard", "true");
+        capabilities.setCapability("automationName", "UiAutomator2");
         driver = new AndroidDriver<RemoteWebElement>(new URL("http://localhost:4723/wd/hub"), capabilities);
         ScreenLogin = new ScreenLogin(driver);
     }
