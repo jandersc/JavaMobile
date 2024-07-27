@@ -22,7 +22,7 @@ public class DeviceFarmLogin {
         caps.setCapability("browserstack.user", "jandercerqueira_Zbu6HX");
         caps.setCapability("browserstack.key", "7HvJWtpqwR7W2ktszqLw");
 
-        caps.setCapability("app", "bs://3454f325d2d355ac1fbc7e88a6c3961466643564");
+        caps.setCapability("app", "bs://8f4931942e5db22dec369113375cc7ffe94375ca");
         caps.setCapability("deviceName", "Samsung Galaxy S23");
         caps.setCapability("platformName", "Android");
         caps.setCapability("platformVersion", "13.0");
